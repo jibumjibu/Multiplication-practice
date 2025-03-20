@@ -44,7 +44,7 @@ h1, p {
 
 .grid-item {
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid rgb(240, 237, 237);
   display: flex;
   justify-content: center;
   align-items: center;
