@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6x4 Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Multiplication</h1>
+    <div class="container">
+        <div class="grid-container" id="grid-container">
+            <div class="grid-item carryon"></div> <!-- 0 -->
+            <div class="grid-item carryon"></div> <!-- 1 -->
+            <div class="grid-item carryon"></div> <!-- 2 -->
+            <div class="grid-item carryon"></div> <!-- 3 -->
+            <div class="grid-item carryon"></div> <!-- 4 -->
+            <div class="grid-item carryon"></div> <!-- 5 -->
+            <div class="grid-item"></div> <!-- 6 -->
+            <div class="grid-item"></div> <!-- 7 -->
+            <div class="grid-item carryon"></div> <!-- 8 -->
+            <div class="grid-item carryon"></div> <!-- 9 -->
+            <div class="grid-item"></div> <!-- 10 -->
+            <div class="grid-item"></div> <!-- 11 -->
+            <div class="grid-item carryon"></div> <!-- 12 -->
+            <div class="grid-item calc"></div> <!-- 13 -->
+            <div class="grid-item calc"></div> <!-- 14 -->
+            <div class="grid-item calc"></div> <!-- 15 -->
+            <div class="grid-item calc"></div> <!-- 16 -->
+            <div class="grid-item calc"></div> <!-- 17 -->
+            <div class="grid-item calc"></div> <!-- 18 -->
+            <div class="grid-item calc"></div> <!-- 19 -->
+            <div class="grid-item answer"></div> <!-- 20 -->
+            <div class="grid-item answer"></div> <!-- 21 -->
+            <div class="grid-item answer"></div> <!-- 22 -->
+            <div class="grid-item answer"></div> <!-- 23 -->
+        </div>
+        <div class="button-container">
+            <button onclick="clearAll()" class="buttons">Clear</button>
+            <button onclick="checkAnswer()" class="buttons">Check Answer</button>
+            <button onclick="newQuestion()" class="buttons">New Question</button>
+        </div>
+    </div>
+
+    <p class="result"></p>
+  
+<div class="keypad" id="keypad">
+  <!-- Virtual Keypad -->
+  <button onclick="enterNumber(1)">1</button>
+  <button onclick="enterNumber(2)">2</button>
+  <button onclick="enterNumber(3)">3</button>
+  <button onclick="enterNumber(4)">4</button>
+  <button onclick="enterNumber(5)">5</button>
+  <button onclick="enterNumber(6)">6</button>
+  <button onclick="enterNumber(7)">7</button>
+  <button onclick="enterNumber(8)">8</button>
+  <button onclick="enterNumber(9)">9</button>
+  <button onclick="enterNumber(0)">0</button>
+  <button onclick="clearCell()" style="width: 210%;">Clear</button> <!-- Clear button -->
+</div>
+
+<script src="script.js">  </script>
+</body>
+</html>
